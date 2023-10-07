@@ -1,0 +1,9 @@
+section.section {
+    min-height: 50vh;
+    padding: 3rem;
+}
+
+.music-container {
+    max-height: 250px;
+    padding-bottom: 10px;
+}
