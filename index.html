@@ -7,6 +7,9 @@
     <title>HarmonyFest</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="bg-gray-100">
@@ -30,21 +33,70 @@
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto text-center relative z-10">
             <h1 class="text-4xl font-bold leading-tight mb-4">HarmonyFest: Unite Against Racism</h1>
-            <p class="text-xl mb-8">26 - 28 july 2024 | Hyde Park, London</p>
+            <p class="text-xl mb-4">26 - 28 July 2024 | Hyde Park, London</p>
+            <p class="text-lg mb-8">Join us for three days of incredible music, inspiring art, and important anti-racism
+                discussions.</p>
             <a href="./tickets.html"
                 class="bg-amber-500 hover:bg-amber-600 text-white py-3 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out">Buy
                 your tickets now !</a>
         </div>
     </header>
 
+    <!-- Informations sur le lieu et la date -->
+    <section class="section bg-gray-200 py-12 space">
+        <div class="container mx-auto text-center">
+            <h2 class="text-5xl font-bold mb-8">Event Details</h2>
+            <div class="grid grid-cols-3">
+                <div class="space-y-5">
+                    <span class="text-8xl text-center">
+                        <i class="fas fa-location-dot"></i>
+                    </span>
+                    <div class="space-y-3">
+                        <h1 class="font-bold text-4xl text-center">Where ?</h1>
+                        <p class="text-center">London Hyde Park</p>
+                    </div>
+                </div>
+                <div class="space-y-5">
+                    <span class="text-8xl text-center">
+                        <i class="fas fa-calendar-days"></i>
+                    </span>
+                    <div class="space-y-3">
+                        <h1 class="font-bold text-4xl text-center">When ?</h1>
+                        <p class="text-center">From July 26th to July 28th, 2024</p>
+                    </div>
+                </div>
+                <div class="space-y-5">
+                    <span class="text-8xl text-center">
+                        <i class="fas fa-hand-fist"></i>
+                    </span>
+                    <div class="space-y-3">
+                        <h1 class="font-bold text-4xl text-center">Why ?</h1>
+                        <p class="text-center">Our festival is against the racism</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section avec des photos du lieu -->
+    <section class="section py-12">
+        <div class="container mx-auto text-center space-y-5">
+            <h2 class="text-4xl font-bold mb-4">Discover the Venue</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="gallery">
+                <img src="./src/img/venue1.jpg" alt="Venue Photo 1" class="rounded-lg shadow-lg">
+                <img src="./src/img/venue2.jpeg" alt="Venue Photo 2" class="rounded-lg shadow-lg">
+                <img src="./src/img/venue3.jpg" alt="Venue Photo 3" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
     <!-- Contenu principal -->
-    <section class="section">
-        <div class="container mx-auto py-12">
-            <h2 class="text-3xl font-bold mb-8">About us</h2>
+    <section class="text-center bg-gray-200">
+        <div class="container mx-auto py-12 text-center bg-gray-200">
+            <h2 class="text-4xl font-bold mb-8">About us</h2>
             <p class="text-lg leading-relaxed">
-                HarmonyFest is an unmissable music event that aims to promote unity, diversity and
-                diversity and inclusion through music. Join us for three days of incredible music, inspiring art and
-                and important anti-racism discussions.
+                HarmonyFest is an unmissable music event that aims to promote unity, diversity, and inclusion through
+                music. Join us for three days of incredible music, inspiring art, and important anti-racism discussions.
             </p>
         </div>
     </section>
@@ -55,7 +107,6 @@
             <p>&copy; 2024 HarmonyFest. All rights reserved.</p>
         </div>
     </footer>
-
 </body>
 
 </html>
